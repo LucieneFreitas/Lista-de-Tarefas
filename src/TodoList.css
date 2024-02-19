@@ -8,7 +8,7 @@
   --txt-color: white;
   --bg-button-add: #363b65;
   --bg-button-add-hover: #363f88;
-
+  --txt-itemCompleto: #4d506e;
 }
 
 
@@ -63,8 +63,100 @@ button.add:hover{
   background: var(--bg-button-add-hover);
 }
 
+.listaTarefas{
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 600px;
+  margin: auto;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--bg-button-add);
+  margin-bottom: 10px;
+  cursor: pointer;  
+}
+
+.item:hover{
+  background: var(--bg-button-add-hover);  
+}
+
+.item span{
+  width: 100%;
+  color: var(--txt-color);
+  margin-right: 10px;
+  padding: 10px 15px;
+}
+
+.itemCompleto{
+  display: flex;
+  justify-content: space-between;
+  background: #1e1f2e;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer; 
+  opacity: 0.4;
+}
+
+.itemCompleto span {
+  width: 100%;
+  color: var(--txt-itemCompleto);
+  margin-right: 10px;
+  padding: 10px 15px;
+  text-decoration: line-through;
+}
+
+button.del{
+  background: none;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  color: var(--txt-itemCompleto);
+}
+
+button.del:hover{
+  background: #ff004c;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  color: var(--txt-color);
+}
+
+button.deleteAll{
+  border: 1px solid #ff004c;
+  background: none;
+  padding: 15px;
+  color: #ff004c;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button.deleteAll:hover{  
+  color: #ff004c;
+  color: var(--txt-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.container img {
+  max-width: 20%;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 900px) {
   form {
+    width: 100%;
+  }
+
+  .listaTarefas{
     width: 100%;
   }
 }
