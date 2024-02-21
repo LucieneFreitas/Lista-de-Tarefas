@@ -88,6 +88,7 @@ function TodoList() {
           ))
         )}
 
+ <div className="containerButton">
         {lista.length > 0 && (
           <button
             onClick={() => {
@@ -98,6 +99,8 @@ function TodoList() {
             Deletar Todas
           </button>
         )}
+        </div>
+        
       </div>
     </div>
   );

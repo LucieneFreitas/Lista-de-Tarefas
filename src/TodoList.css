@@ -124,15 +124,17 @@ button.del:hover{
   color: var(--txt-color);
 }
 
+
+
 button.deleteAll{
-  border: 1px solid #ff004c;
-  background: none;
-  padding: 15px;
-  color: #ff004c;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 30px;
+  border:1px solid #ff004c;
+    background: none;
+    padding:15px;
+    color: #ff004c;
+    font-weight: bold;
+    border-radius:5px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
 button.deleteAll:hover{  
@@ -140,7 +142,7 @@ button.deleteAll:hover{
   color: var(--txt-color);
 }
 
-.container {
+.container, .containerButton {
   display: flex;
   justify-content: center;
   align-items: center;  
