@@ -1,8 +1,28 @@
-# React + Vite
+<p align="center">
+  <img alt="Calendario da Copa" src=".github/lista.png" width="100%">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# LISTA DE TAREFAS
+Aplicação de LISTA DE TAREFAS para adicionar, conclusão e excluir tarefas.<br>
+
+
+<br>
+<h3 align="center">Desenvolvido em: </h3>
+<div align="center">
+    <img align="center" alt="JS" height="60" width="70" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg">
+    <img align="center" alt="Renan-HTML" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+    <img align="center" alt="Renan-React" height="60" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+</div>
+<br>
+
+
+### 📘 Ferramentas/Bibliotecas utilizadas
+  - Biblioteca para criação de interfaces: `reactJS`
+  - Setup para criar o projeto no React: `ViteJS`
+  
+<br>
+  
+✔️ Feito com ♥ by Luciene Freitas 
